@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercice 5</title>
+</head>
+
+<body>
+
+<h1>Ma fiche de présentation</h1>
+<p id="nomComplet"></p>
+<p id="age"></p>
+<p id="ville"></p>
+<p id="presentation"></p>
+
+<script>
+let prenom = "Mouad";
+let nom = "Ihimmi";
+let age = 20;
+let ville = "Agadir";
+
+document.getElementById("nomComplet").innerHTML = prenom + " " + nom.toUpperCase();
+document.getElementById("age").innerHTML = age;
+document.getElementById("ville").innerHTML = ville;
+
+document.getElementById("presentation").innerHTML =
+"Je m'appelle " + prenom + " " + nom + ", j'ai " + age + " ans et j'habite à " + ville + ".";
+
+document.title = "Fiche de " + prenom;
+</script>
+
+</body>
+</html>
